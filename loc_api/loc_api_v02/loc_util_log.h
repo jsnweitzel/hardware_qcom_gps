@@ -32,15 +32,15 @@
 
 #ifdef FEATURE_LOC_API_V02_QNX_MOD
 //error logs
-#define LOC_LOGE(...) printf(__VA_ARGS__)
+#define LOC_LOGE(...)
 //warning logs
-#define LOC_LOGW(...) printf(__VA_ARGS__)
+#define LOC_LOGW(...)
 // debug logs
-#define LOC_LOGD(...) printf(__VA_ARGS__)
+#define LOC_LOGD(...)
 //info logs
-#define LOC_LOGI(...) printf(__VA_ARGS__)
+#define LOC_LOGI(...)
 //verbose logs
-#define LOC_LOGV(...) printf(__VA_ARGS__)
+#define LOC_LOGV(...)
 
 #define MODEM_LOG_CALLFLOW(SPEC, VAL)
 #define EXIT_LOG_CALLFLOW(SPEC, VAL)
@@ -52,15 +52,15 @@
 #include <stdio.h>
 
 //error logs
-#define LOC_LOGE(...) printf(__VA_ARGS__)
+#define LOC_LOGE(...)
 //warning logs
-#define LOC_LOGW(...) printf(__VA_ARGS__)
+#define LOC_LOGW(...)
 // debug logs
-#define LOC_LOGD(...) printf(__VA_ARGS__)
+#define LOC_LOGD(...)
 //info logs
-#define LOC_LOGI(...) printf(__VA_ARGS__)
+#define LOC_LOGI(...)
 //verbose logs
-#define LOC_LOGV(...) printf(__VA_ARGS__)
+#define LOC_LOGV(...)
 
 // get around strl*: not found in glibc
 // TBD:look for presence of eglibc other libraries

@@ -138,18 +138,18 @@ extern void loc_eng_mute_one_session();
 
 /* LOGGING MACROS */
 #define LOC_LOGE(...) \
-if (gps_conf.DEBUG_LEVEL >= 1) { ALOGE(__VA_ARGS__); }
+if (gps_conf.DEBUG_LEVEL >= 1) { ALOGE(); }
 
 #define LOC_LOGW(...) \
-if (gps_conf.DEBUG_LEVEL >= 2) { ALOGW(__VA_ARGS__); }
+if (gps_conf.DEBUG_LEVEL >= 2) { ALOGW(); }
 
 #define LOC_LOGI(...) \
-if (gps_conf.DEBUG_LEVEL >= 3) { ALOGI(__VA_ARGS__); }
+if (gps_conf.DEBUG_LEVEL >= 3) { ALOGI(); }
 
 #define LOC_LOGD(...) \
-if (gps_conf.DEBUG_LEVEL >= 4) { ALOGD(__VA_ARGS__); }
+if (gps_conf.DEBUG_LEVEL >= 4) { ALOGD(); }
 
 #define LOC_LOGV(...) \
-if (gps_conf.DEBUG_LEVEL >= 5) { ALOGV(__VA_ARGS__); }
+if (gps_conf.DEBUG_LEVEL >= 5) { ALOGV(); }
 
 #endif // LOC_ENG_H
